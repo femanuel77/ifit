@@ -58,6 +58,11 @@ main {
     margin: 2% auto 2% auto;
     border-radius: 20px;
 }
+.div-3{
+    width: 45%;
+    background-color: white;
+    border-radius: 20px;
+}
 .img-1 {
     margin: 0 5% 0 0;
     float: left;
@@ -85,12 +90,13 @@ main {
     border: 1px solid #a836ff;
     border-radius: 5px;
 }
-footer{
+.footer{
     width: 100%;
     padding: 0.5%;
     position: fixed;
     bottom: 0;
     left: 0;
+    margin: 0;
     color: white;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.3); 
@@ -98,9 +104,32 @@ footer{
     backdrop-filter: blur(5px);
     z-index: 1000;
 }
-
+.footer2{
+    padding: 0.5%;
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3); 
+    background-attachment: fixed;
+    backdrop-filter: blur(5px);
+    z-index: 1000;
+}
+li {
+    margin-top: 7px;
+}
 .tempo {
-    list-style-image: url(img/relogio1.png);
+    list-style-image: url(img/relogio1.svg);
+    vertical-align: center;
+}
+.distancia {
+    list-style-image: url(img/distancia1.svg);
+    vertical-align: center;
+}
+.pico {
+    list-style-image: url(img/pico1.svg);
+    vertical-align: center;
+}
+.pontos {
+    list-style-image: url(img/pontos1.svg);
     vertical-align: center;
 }
 .login {
