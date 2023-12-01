@@ -7,7 +7,6 @@ body {
 }
 nav {
     position: fixed;
-    /* border: 1px solid white; */
     top: 0;
     left: 0;
     width: 100%;
@@ -118,19 +117,19 @@ li {
     margin-top: 7px;
 }
 .tempo {
-    list-style-image: url(img/relogio1.svg);
+    list-style-image: url(img/relogio.svg);
     vertical-align: center;
 }
 .distancia {
-    list-style-image: url(img/distancia1.svg);
+    list-style-image: url(img/distancia.svg);
     vertical-align: center;
 }
 .pico {
-    list-style-image: url(img/pico1.svg);
+    list-style-image: url(img/pico.svg);
     vertical-align: center;
 }
 .pontos {
-    list-style-image: url(img/pontos1.svg);
+    list-style-image: url(img/pontos.svg);
     vertical-align: center;
 }
 .login {
