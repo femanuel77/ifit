@@ -4,6 +4,7 @@ body {
     margin: 0;
     background: linear-gradient(to right, #320173, #8a00f4);
     width: 100%;
+    overflow-x: hidden;
 }
 nav {
     position: fixed;
@@ -27,6 +28,15 @@ a:hover{
     text-decoration: underline;
     margin: 0 10px 0 0;
     font-size: 18px;
+}
+.menu-mobile div {
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+}
+.menu-mobile {
+    display: none;
 }
 main {
     padding: 90px 0 90px 0;
@@ -152,6 +162,9 @@ input[type='checkbox'] {
     display: block;
 }
 @media screen and (max-width:600px){
+    body{
+        overflow-x: hidden;
+    }
     .links{
         display: none;
     }
