@@ -188,6 +188,8 @@ li {
         width: 100%;
         padding: 0.5%;
         position: relative;
+        bottom: 0;
+        left: 0;
         margin: 0;
         color: white;
         text-align: center;
