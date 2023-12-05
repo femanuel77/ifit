@@ -85,7 +85,7 @@ main {
     text-align: justify;
     vertical-align: middle;
 }
-.button, .tablink {
+.button {
     font-family: 'Josefin Sans';
     font-size: 100%;
     font-weight: bold;
@@ -100,7 +100,7 @@ main {
     border: 1px solid #a836ff;
     border-radius: 5px;
 }
-.footer{
+.footer, .footer-3{
     width: 100%;
     padding: 0.5%;
     position: fixed;
@@ -114,7 +114,7 @@ main {
     backdrop-filter: blur(5px);
     z-index: 1000;
 }
-.footer2{
+.footer-2{
     padding: 0.5%;
     color: white;
     text-align: center;
@@ -122,6 +122,9 @@ main {
     background-attachment: fixed;
     backdrop-filter: blur(5px);
     z-index: 1000;
+}
+.texto {
+    text-indent: 20px;
 }
 li {
     margin-top: 7px;
@@ -142,25 +145,7 @@ li {
     list-style-image: url(img/pontos.svg);
     vertical-align: center;
 }
-.login {
-    border: 0;
-    border-radius: 10px;
-    margin: 100px auto 100px auto;
-    width: 30%;
-    background-color: white;
-}
-.img-login{
-    text-align: center;
-}
-input[type='checkbox'] {
-    accent-color: #320173;
-}
-.tab-content {
-    display: none;
-}
-.tab-content.active {
-    display: block;
-}
+
 @media screen and (max-width:600px){
     body{
         overflow-x: hidden;
@@ -198,5 +183,17 @@ input[type='checkbox'] {
         margin: 100px auto 100px auto;
         width: 60%;
         background-color: white;
+    }
+    .footer-3{
+        width: 100%;
+        padding: 0.5%;
+        position: relative;
+        margin: 0;
+        color: white;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.3); 
+        background-attachment: fixed;
+        backdrop-filter: blur(5px);
+        z-index: 1000;
     }
 }
