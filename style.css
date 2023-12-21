@@ -145,7 +145,7 @@ li {
     list-style-image: url(img/pontos.svg);
     vertical-align: center;
 }
-
+/* 
 @media screen and (max-width:600px){
     body{
         overflow-x: hidden;
@@ -197,7 +197,7 @@ li {
         backdrop-filter: blur(5px);
         z-index: 1000;
     }
-}
+} */
 .swiper {
     height: 330px;
     width: 440px;
